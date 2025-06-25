@@ -60,3 +60,8 @@ function saveBookmark(name, url){
     bookmarks.push({name, url})
     localStorage.setItem("bookmarks", JSON.stringify(bookmarks))
 }
+// Load bookmarks from storage and display them by calling addBookmark
+function loadBookmarks(){
+    const bookmarks = getBookmarksFromStorage();
+    bookmarks.forEach((bookmark) => addBookmark(bookmark.name, bookmark.url));
+}
