@@ -15,6 +15,9 @@ addBookmarkBtn.addEventListener("click", function () {
     if(!name || !url){
         alert("Please enter both name and URL.");
         return;
-    } 
-
-})
+    } else{ // If URL doesn't start with http:// or https://, show alert and stop
+        if(!url.startsWith("http://") && !url.startsWith("https://")){
+            alert("Please enter a valid URL starting with http:// or https://");
+            return;
+        }
+});
