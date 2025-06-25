@@ -45,6 +45,11 @@ function addBookmark(name, url){
     // Add the link and remove button to the list item, then append it to the bookmark list
     li.appendChild(link);
     li.appendChild(removeButton);
-
     bookmarkList.appendChild(li);
+}
+
+// Retrieve bookmarks from localStorage, or return empty array if none
+function getBookmarksFromStorage(){
+    const bookmarks = localStorage.getItem("bookmarks")
+    return bookmarks ? JSON.parse(bookmarks) : []
 }
