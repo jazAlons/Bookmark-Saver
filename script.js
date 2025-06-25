@@ -26,3 +26,9 @@ addBookmarkBtn.addEventListener("click", function () {
         bookmarkUrlInput.value= ""; 
     }
 });
+
+function addBookmark(name, url){
+    // Create list item and link elements for the bookmark
+    const li = document.createElement("li")
+    const link = document.createElement("a")
+}
