@@ -2,7 +2,6 @@
 
 A simple web application to save, display, and manage bookmarks directly in your browser with data persistence.
 
----
 
 ## Main Files
 
@@ -15,20 +14,18 @@ A simple web application to save, display, and manage bookmarks directly in your
 - **script.js**  
   JavaScript logic for adding, validating, saving, loading, and removing bookmarks using localStorage.
 
----
 
 ## Preview
 
-![Screenshot 1](./1.png)  
+![Screenshot 1](1.png)  
 *Main interface with input fields*
 
-![Screenshot 2](./2.png)  
+![Screenshot 2](2.png)  
 *Adding a new bookmark*
 
-![Screenshot 3](./3.png)  
+![Screenshot 3](3.png)  
 *Open new tab*
 
----
 
 ## Features
 
@@ -38,7 +35,6 @@ A simple web application to save, display, and manage bookmarks directly in your
 - Data persists across browser sessions via localStorage.  
 - Clean, user-friendly interface.
 
----
 
 ## How to Use
 
@@ -48,7 +44,6 @@ A simple web application to save, display, and manage bookmarks directly in your
 4. Click "Remove" to delete a bookmark.  
 5. Bookmarks will be saved locally and persist on reload.
 
----
 
 ## Technologies
 
