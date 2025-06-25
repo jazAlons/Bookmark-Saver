@@ -11,5 +11,10 @@ addBookmarkBtn.addEventListener("click", function () {
     const name = bookmarkNameInput.value.trim()
     const url = bookmarkUrlInput.value.trim()
 
+    // Show alert and return if any input is empty
+    if(!name || !url){
+        alert("Please enter both name and URL.");
+        return;
+    } 
 
 })
