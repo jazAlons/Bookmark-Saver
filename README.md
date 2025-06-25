@@ -17,13 +17,13 @@ A simple web application to save, display, and manage bookmarks directly in your
 
 ## Preview
 
-![Screenshot 1](1.png)  
+![Screenshot 1](1.jpeg)  
 *Main interface with input fields*
 
-![Screenshot 2](2.png)  
+![Screenshot 2](2.jpeg)  
 *Adding a new bookmark*
 
-![Screenshot 3](3.png)  
+![Screenshot 3](3.jpeg)  
 *Open new tab*
 
 
@@ -52,4 +52,5 @@ A simple web application to save, display, and manage bookmarks directly in your
 - JavaScript (ES6)  
 - Browser localStorage API
 
-
+## Link
+https://bookmarksaverjz.netlify.app/
