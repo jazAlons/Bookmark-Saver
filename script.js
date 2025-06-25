@@ -35,8 +35,6 @@ function addBookmark(name, url){
     link.href = url
     link.textContent = name
     link.target = "_blank"
-
-
     // Create a remove button for deleting the bookmark
     const removeButton = document.createElement("button")
     removeButton.textContent = "Remove"
