@@ -53,3 +53,10 @@ function getBookmarksFromStorage(){
     const bookmarks = localStorage.getItem("bookmarks")
     return bookmarks ? JSON.parse(bookmarks) : []
 }
+
+// Save a new bookmark to localStorage by adding it to the existing list
+function saveBookmark(name, url){
+    const bookmarks = getBookmarksFromStorage()
+    bookmarks.push({name, url})
+    localStorage.setItem("bookmarks", JSON.stringify(bookmarks))
+}
