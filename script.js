@@ -38,4 +38,13 @@ function addBookmark(name, url){
     // Create a remove button for deleting the bookmark
     const removeButton = document.createElement("button")
     removeButton.textContent = "Remove"
+    removeButton.addEventListener("click" , function () {
+        bookmarkList.removeChild(li)
+        removeBookmarkFromStorage(name, url);
+    });
+    // Add the link and remove button to the list item, then append it to the bookmark list
+    li.appendChild(link);
+    li.appendChild(removeButton);
+
+    bookmarkList.appendChild(li);
 }
