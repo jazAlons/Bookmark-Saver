@@ -71,3 +71,17 @@ button:hover{
     justify-content: space-between;
     align-items: center;
 }
+
+#bookmark-list a{
+    color: #824072;
+    text-decoration: none;
+}
+
+#bookmark-list button{
+    background-color: #e74c3c;
+    padding: 5px 10px;
+}
+
+#bookmark-list button:hover{
+    background-color: #c0392b;
+}
