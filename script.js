@@ -31,4 +31,10 @@ function addBookmark(name, url){
     // Create list item and link elements for the bookmark
     const li = document.createElement("li")
     const link = document.createElement("a")
+    // Set link href, text and open in new tab
+    link.href = url
+    link.textContent = name
+    link.target = "_blank"
+
+
 }
