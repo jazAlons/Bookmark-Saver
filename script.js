@@ -19,5 +19,10 @@ addBookmarkBtn.addEventListener("click", function () {
         if(!url.startsWith("http://") && !url.startsWith("https://")){
             alert("Please enter a valid URL starting with http:// or https://");
             return;
-        }
+        } // Add and save the bookmark, then clear input fields
+        addBookmark(name, url);
+        saveBookmark(name, url);
+        bookmarkNameInput.value = "";
+        bookmarkUrlInput.value= ""; 
+    }
 });
