@@ -85,3 +85,8 @@ button:hover{
 #bookmark-list button:hover{
     background-color: #c0392b;
 }
+
+input:focus{
+    border-color: #5d6360;
+    outline: none;
+}
